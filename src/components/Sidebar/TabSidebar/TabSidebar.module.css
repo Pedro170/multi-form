@@ -1,0 +1,50 @@
+.container {
+  margin: 2rem 0
+}
+
+.container a {
+  display: flex;
+  align-items: center;
+}
+
+.info {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.title {
+  text-align: right;
+  font-size: 1rem;
+  margin-bottom: .5rem;
+  color: #fff;
+}
+
+.description {
+  text-align: right;
+  font-size: .875rem;
+  color: var( --color );
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #494A7C;
+}
+
+.point {
+  width: 10px;
+  height: 10px;
+  border: solid 2px #494A7C;
+  border-radius: 50%;
+  margin-left: 30px;
+  margin-right: -5px;
+  background: #02044A;
+}
+
+.active {
+  background: var( --border-color );
+}

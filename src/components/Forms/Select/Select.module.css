@@ -1,0 +1,46 @@
+.select {
+  display: flex;
+  align-items: center;
+  border-radius: var( --border-radius );
+  border: solid 2px var( --bg-second );
+  margin-bottom: 1rem;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.select:hover {
+  border-color: #496459;
+}
+
+.selected,
+.selected:focus {
+  border-color: var( --border-color );
+}
+
+.select .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: var( --bg-second );
+  font-size: 1.5rem;
+}
+
+.select .info {
+  flex: 1;
+  margin-left: 2rem;
+}
+
+.select .info .title {
+  font-size: 1.2rem;
+  margin-bottom: .5rem;
+}
+
+.select .info .description {
+  font-size: .875rem;
+  color: var( --color );
+}
+
+

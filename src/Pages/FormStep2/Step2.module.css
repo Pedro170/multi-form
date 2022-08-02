@@ -1,0 +1,48 @@
+.stepOne {
+  padding: 2rem;
+}
+
+.stepOne .stepH1 {
+  font-size: 1.8rem;
+}
+
+.stepOne .stepP {
+  font-size: .875rem;
+  color: var( --color );
+  margin: 1.5rem 0;
+}
+
+.stepOne hr {
+  height: 1px;
+  border: none;
+  background: var( --bg-second );
+  margin: 2rem 0;
+}
+
+.stepOne label {
+  font-size: .875rem;
+}
+
+.stepOne label input {
+  display: block;
+  width: 100%;
+  border: solid 2px var( --border-color );
+  border-radius: var( --border-radius );
+  background: var( --bg );
+  padding: 1.5rem .9rem;
+  margin-top: .5rem;
+  color: #fff;
+  outline: none;
+}
+
+.stepOne button {
+  border-radius: 30px;
+  border: none;
+  background: var( --border-color );
+  font-size: 1rem;
+  font-weight: bolder;
+  color: #fff;
+  padding: 20px 40px;
+  margin-top: 2rem;
+  cursor: pointer;
+}

@@ -1,0 +1,23 @@
+.container {
+  background: var( --bg );
+  color: #fff;
+  min-height: 100vh;
+}
+
+.theme {
+  display: flex;
+  flex-direction: column;
+  max-width: 980px;
+  min-height: var( --min-height );
+  margin: 0 auto;
+}
+
+.steps {
+  flex: 1;
+  display: flex;
+}
+
+.page {
+  flex: 1;
+  padding: 40px 0 0 40px;
+}
