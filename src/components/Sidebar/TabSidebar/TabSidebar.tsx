@@ -1,9 +1,9 @@
 import React from 'react'
 import styles from './TabSidebar.module.css'
 import { Link } from 'react-router-dom'
-import { ReactComponent as Head } from '../../../svgs/profile.svg'
-import { ReactComponent as Book } from '../../../svgs/book.svg'
-import { ReactComponent as Email } from '../../../svgs/mail.svg'
+import { ReactComponent as Head } from '../../../images/profile.svg'
+import { ReactComponent as Book } from '../../../images/book.svg'
+import { ReactComponent as Email } from '../../../images/mail.svg'
 
 
 type Props = {
